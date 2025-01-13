@@ -120,6 +120,8 @@ header {
     gap: 4px;
     color: #414651;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
 }
 
 
@@ -241,4 +243,178 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.bb {
+    display: flex;
+}
+
+.icon_svg {
+    display: flex;
+    gap: 12px;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.access {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px 32px 40px 32px;
+}
+
+.featured_icon_div {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 32px 0px 32px;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+.svg_3 {
+    max-width: 48px;
+    width: 100%;
+}
+
+.button_div_2 {
+    padding: 32px;
+    display: flex;
+}
+
+.get {
+    padding: var(--spacing-lg, 12px) 18px;
+    max-width: 432px;
+    width: 100%;
+    border-radius: var(--radius-md, 8px);
+    background: #7F56D9;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border: none;
+}
+
+.upgrade_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Basic_plan {
+    color: #6941C6;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: Inter;
+}
+
+.mth {
+    color: #181D27;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    font-family: Inter;
+}
+
+.billed {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.star_div {
+    background: #6941C6;
+    border-radius: 8px;
+}
+
+.photo_div {
+    border-radius: var(--radius-none, 0px);
+    background: url(./Image.svg) lightgray 50% / cover no-repeat;
+    max-width: 480px;
+    width: 100%;
+    height: 566px;
+    margin-left: 100px;
+    border-radius: 8px;
+}
+
+.pp {
+    display: flex;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    font-family: inter;
+    color: #FFF;
+}
+
+.dot {
+    max-width: 70px;
+    width: 100%;
+}
+
+.love {
+    max-width: 416px;
+    width: 100%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+
+}
+
+.designer {
+    color: #E9D7FE;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.star_div_p {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.renee {
+    margin-top: 32px;
+}
+
+.pagination {
+    margin-top: 32px
+}
+
+.footer_main_div {
+    margin-top: 72px;
+    padding: 24px 208px;
+}
+
+
+.third {
+    display: flex;
+    align-items: center;
+    gap: 108px;
+    justify-content: space-around;
+}
+
+
+.second {
+    display: flex;
+    color: #535862;
+    gap: 32px;
 }
